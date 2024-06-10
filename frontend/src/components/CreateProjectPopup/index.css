@@ -1,0 +1,89 @@
+.add-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.create-new-project-btn {
+  width: 240px;
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.create-new-project-btn-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.create-project-modal {
+  background-color: #ffffff;
+  width: 600px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.create-project-header {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 800;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.project-name-label {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.create-project-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.close-btn {
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 14px;
+  width: 100px;
+  height: 32px;
+  color: rgba(255, 0, 0, 0.9);
+}
+
+.submit-btn {
+  background-color: #7e22ce;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  width: 100px;
+  height: 32px;
+  margin: 0;
+  margin-left: 8px;
+}
+
+.error-msg {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: red;
+  margin-top: 4px;
+}

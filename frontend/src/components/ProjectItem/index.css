@@ -1,0 +1,78 @@
+.item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  border: 1px solid #000;
+  border-radius: 16px;
+  width: 260px;
+  height: 100px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.initial-text-container {
+  width: 110px;
+  height: 100%;
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.color1 {
+  background-color: #7e22ce;
+}
+.color2 {
+  background-color: #f8a01d;
+}
+.color3 {
+  background-color: #6366f1;
+}
+
+.initial-text {
+  font-family: 'Roboto Bold';
+  font-size: 48px;
+  color: #ffffff;
+}
+
+.item-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 80%;
+  margin-left: 8px;
+}
+
+.item-heading-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.project-card-title {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  color: #7e22ce;
+  margin-bottom: 4px;
+}
+
+.project-desc {
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: #3c3c3c;
+}
+
+.last-edit-text {
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: #969696;
+}

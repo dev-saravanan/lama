@@ -1,0 +1,26 @@
+.create-new-project-empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.create-project-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 700;
+  color: #7e22ce;
+}
+
+.home-img {
+  width: 400px;
+  height: 300px;
+}
+
+.create-new-project-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #999999;
+  text-align: center;
+}
