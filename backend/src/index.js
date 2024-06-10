@@ -6,6 +6,7 @@ const db = require("./models/index");
 const cors = require("cors");
 
 const app = express();
+const port = process.env.PORT || 3100;
 
 const corsMiddleware = cors({
   corsOptions: {
@@ -40,8 +41,8 @@ app.use((req, res) => {
 });
 
 // set port, listen for requests
-app.listen(process.env.API_PORT, () => {
-  console.log(`Server is running on port ${process.env.API_PORT}.`);
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}.`);
 });
 
 module.exports = app;
