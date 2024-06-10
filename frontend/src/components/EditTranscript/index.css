@@ -1,0 +1,72 @@
+.edit-transcript-container {
+  border-radius: 16px;
+  border: 1px solid #7e22ce;
+  margin-top: 16px;
+  padding: 8px;
+  height: 90%;
+}
+
+.edit-mode-btn {
+  background-color: #3c3c3c;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.pencil-icon {
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+}
+
+.edit-mode-text {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.edit-btn-grp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search-icon-btn {
+  height: 40px;
+  width: 40px;
+  background-color: #f3e8ff;
+  border-radius: 20px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-search-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.file-name {
+  font-family: 'Roboto Bold';
+  color: #7e22ce;
+  font-size: 14px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.description-area {
+  border: 0px;
+  font-family: 'Roboto';
+  color: #3c3c3c;
+  padding: 8px 0px;
+  height: 340px;
+  width: 100%;
+  overflow-y: auto;
+}

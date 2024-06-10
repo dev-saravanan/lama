@@ -1,0 +1,49 @@
+.top-bar-container {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-icon-purple {
+  width: 24px;
+  height: 24px;
+}
+
+.current-path {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.path-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #999999;
+}
+
+.custom-select {
+  width: 60px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  padding: 8px;
+  outline: none;
+}
+
+.language-selection-notification {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.language-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  margin-left: 8px;
+}

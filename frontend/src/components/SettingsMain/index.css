@@ -1,0 +1,84 @@
+.settings-heading {
+  font-family: 'Roboto Bold';
+  font-size: 28px;
+  color: #7e22ce;
+}
+
+.account-settings {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.user-image {
+  width: 120px;
+}
+
+.acc-inner-container {
+  flex-grow: 1;
+  margin-left: 16px;
+}
+
+.settings-label {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #000000;
+  font-weight: 600;
+}
+
+input {
+  margin: 4px 0px;
+}
+
+.subscription-notification {
+  background: linear-gradient(to right, #7e22ce, #460281);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-top: 16px;
+}
+
+.subs-notification-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.highlight {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.subs-notification-btn {
+  background-color: #ffffff;
+  border-radius: 4px;
+
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  color: #7e22ce;
+  width: 100px;
+}
+
+.cancel-subscription-btn,
+.logout-btn {
+  background-color: transparent;
+  text-decoration: underline;
+
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  color: #ff274c;
+  margin-top: 16px;
+}
+
+.logout-btn {
+  margin-left: 16px;
+}
